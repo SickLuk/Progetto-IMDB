@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1300px;
+}
+
+
+
+@import 'utilies';
+@import 'swiper_film_imbd';
+@import 'swiper_hero_section';
+@import "navbar";
+@import 'evidence-today';
+@import 'watching';

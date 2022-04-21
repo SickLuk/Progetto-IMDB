@@ -1,0 +1,20 @@
+.watching{
+  margin-top: 40px;
+  .title-watching{
+    @include flexBeetween;
+    p{
+      color: #4c90e9;
+      font-weight: bold;
+      padding: 10px;
+      transition: 0.2s all ease-in;
+      cursor: pointer;
+
+      &:hover{
+        background-color: #355e941a;
+      }
+    }
+  }
+  .swiper{
+    margin-top: 20px;
+  }
+}

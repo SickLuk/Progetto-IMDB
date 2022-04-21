@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  <!------- EXTERNAL LINKS ------->
+
+  <link rel="icon" href="./images/imdb_logo.png">
+
+  <!-- SWIPER FONT -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- LINK CSS STYLES -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- FONT ROBOTO LINK -->
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- Menu -->
+  <div id="menu-container">
+    <div id="menu-container-logo">
+        <a href="./index.html"><img src="./images/logo-Navbar.jpg" alt="" id="menu-logo"></a>
+        <button id="close-menu"><img src="./images/X.png" alt="" id="close-menu-x"></button>
+    </div>
+    <div class="menu-container-firstrow">
+            <div class="first">
+                <div id="first-logo">
+                    <i class="fa-solid fa-film"></i>
+                </div>
+                    <div>
+                        <h2>Film</h2>
+                    <ul class="menu-list">
+                        <li><a href="">Calendario uscite</a> </li>
+                        <li><a href="">Versioni DVD e Blu-ray</a> </li>
+                        <li><a href="">I 250 migliori film</a> </li>
+                        <li><a href="">Film più popolari</a> </li>
+                        <li><a href="">Cerca film per genere</a> </li>
+                        <li><a href="">I migliori botteghini</a> </li>
+                        <li><a href="">Orari e biglietti</a> </li>
+                        <li><a href="">Nei cinema</a> </li>
+                        <li><a href="">Prossimamente</a> </li>
+                        <li><a href="">Notizie film</a> </li>
+                        <li><a href="">Film indiani in evidenza</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="second">
+                <div class="second-logo">
+                    <i class="fa-solid fa-tv"></i>
+                </div>
+                    <div>
+                         <h2>Serie TV</h2>
+                         <ul class="menu-list">
+                             <li><a href="">Cosa c'è in TV e streaming</a> </li>
+                             <li><a href="">Le 250 migliori serie</a> </li>
+                             <li><a href="">Le serie più popolari</a> </li>
+                             <li><a href="">Cerca programmi TV per genere</a> </li>
+                             <li><a href="">Notizie TV</a> </li>
+                             <li><a href="">Serie TV indiane in evidenza</a> </li>
+                         </ul>
+                    </div>
+            </div>
+            <div class="third">
+                <div class="third-logo">
+                    <div class="third-logo-star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="third-logo-circle">
+                        <i class="fa-solid fa-circle"></i>
+                    </div>
+                </div>
+                    <div>
+                        <h2>Premi ed eventi</h2>
+                            <ul class="menu-list">
+                                <li><a href="">Oscar</a> </li>
+                                <li><a href="">Vincitori come Migliori film</a> </li>
+                                <li><a href="">Emmy</a> </li>
+                                <li><a href="">STARmeter Awards</a> </li>
+                                <li><a href="">San Diego Comic-Con</a> </li>
+                                <li><a href="">New York Comic-Con</a> </li>
+                                <li><a href="">Sundace Film Festival</a> </li>
+                                <li><a href="">Toronto International Film Festival</a> </li>
+                                <li><a href="">Awards Central</a> </li>
+                                <li><a href="">Festival Central</a> </li>
+                                <li><a href="">Tutti gli eventi</a> </li>
+                            </ul>
+                    </div>
+            </div>
+    </div>
+    <div class="menu-container-secondrow">
+        <div class="fourth">
+                <div class="fourth-logo">
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div>
+                    <h2>Celebrità</h2>
+                        <ul class="menu-list">
+                            <li><a href="">Nati oggi</a> </li>
+                            <li><a href="">Celebrità più popolari</a> </li>
+                            <li><a href=""> Notizie sulle celebrità</a></li>
+                        </ul>
+                </div>
+        </div>
+        <div class="fifth">
+            <div class="fifth-logo">
+                <div class="fifth-logo-play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="fifth-logo-square">
+                    <i class="fa-solid fa-square"></i>
+                </div>
+            </div>
+            <div>
+                <h2>Guarda</h2>
+                    <ul class="menu-list">
+                        <li><a href="">Cosa guardare</a> </li>
+                        <li><a href="">Ultimi trailer</a> </li>
+                        <li><a href="">Originali IMDb</a> </li>
+                        <li><a href="">Preferiti IMDb</a> </li>
+                        <li><a href="">Podcast IMDb</a> </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="sixth">
+            <div class="sixth-logo">
+                <i class="fa-solid fa-earth-americas"></i>
+            </div>
+            <div>
+                <h2>Comunità</h2>
+                    <ul class="menu-list">
+                        <li><a href="">Centro assistenza</a> </li>
+                        <li><a href="">Zona collaboratori</a> </li>
+                        <li><a href=""> Sondaggi</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+<!-- NAVBAR -->
+        <!-- Html navbar -->
+        <nav>
+            <div class="navbar">
+                <div id="nav-img">
+                   <a href="./index.html"><img src="./images/logo-Navbar.jpg" alt="" id="logo-nav"></a>
+                </div>
+
+                <div id="menu-choice">
+                    <button id="menu-btn">
+                      <i class="fa-solid fa-bars"></i>
+                      <h4 id="menu-h4">Menu</h4>
+                    </button>
+                </div>
+
+                <div class="input-nav">
+                    <select id="input-list">
+                    <option value="Tutto" selected>Tutto</option>
+                    <option value="Titoli">Titoli</option>
+                    <option value="Episodi TV">Episodi TV</option>
+                    <option value="Celebrità">Celebrità</option>
+                    <option value="Aziende">Aziende</option>
+                    <option value="Parole chiave">Parole chiave</option>
+                    <option value="Ricerca avanzata">Ricerca Avanzata</option>
+                    </select> 
+                 </div>
+                    <div class="input-container-nav">
+                        <input type="text" placeholder="Cerca su IMDb" id="inputtext-nav"> 
+                        <button type="submit"id="search-button">
+                        <img src="./images/search-icon.png" alt="" >
+                        </button>
+                    </div>
+              
+
+                <div id="list-nav">
+                    <div id="ul-nav">
+                    <ul>
+                       <li id="text-decoration-ul"><a href="">IMDbPro</a></li>
+                       <li id="ul-divider"></li>
+                       <li id="videolist-container">
+                            <div id="right-icon">
+                                <div class="croce">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                
+                                <div class="ribbon" role="button">
+                                    <i class="fa-solid fa-bookmark fa-lg"></i>
+                                </div>
+                            </div>
+                            <a href="">Lista Video</a>
+                        </li>
+                       <li id="accedi-ul"><a href="">Accedi</a></li>
+                    </ul>
+                    </div>
+                    
+
+                    <div id="lang-container" > 
+                        <select id="lang-nav">
+                            <option value="EN">English(United States)</option>
+                            <option value="FR">Français(Canada)</option>
+                            <option value="FR">Français(France)</option>
+                            <option value="DE">Deutsch(Deutschland)</option>
+                            <option value="IN">Hindi(India)</option>
+                            <option value="IT"selected>Italiano(Italia)</option>
+                            <option value="PT">Português(Brasil)</option>
+                            <option value="ES">Espanol(Espana)</option>
+                            <option value="ES">Espagnol(México)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+  
+<!------- HERO SECTION SLIDE FILM ------->
+
+<div class="container-hero-section">
+      <div class="hero-left">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide container-film-news">
+
+              <!-- IMMAGINE DELLA HOME -->
+              <div class="image-home">
+              <img src="https://leganerd.com/wp-content/uploads/2022/04/animali-fantastici-i-segreti-di-silente-recensione-scaled.jpg" alt="foto-hero" id="image-presentation">
+              <!-- Ombreggiatura -->
+              <div class="banner-bottom"></div>
+            </div>
+              <div class="info-hero">
+
+                <!-- BOTTONE IN ALTO A SINISTRA -->
+                <div class="add-button add-button-home button-news">
+                  <div class="croce">
+                    <i class="fa-solid fa-plus fa-lg"></i>
+                    </div>
+                
+                  <div class="ribbon" role="button">
+                    <i class="fa-solid fa-bookmark fa-3x"></i>
+                    </div>
+                  </div>
+                  <!-- LOCANDINA -->
+                <div class="image-hero" id="image-1">
+                  <div class="image-news">
+                  <img src="https://www.ilcineocchio.it/cine/wp-content/uploads/2021/12/Animali-Fantastici-%E2%80%93-I-Segreti-di-Silente.jpeg" alt="animali-fantastici" id="image">
+                  </div>
+                  
+                  <div class="text-news">
+                    <i class="fa-regular fa-circle-play"></i>
+  
+                    <div class="text-news-film">
+                    <h1>'Animali Fantastici e Dove Trovarli: I Segreti di Silente'</h1>
+                    <p>Guarda il trailer completo</p>
+                    </div>
+                    <p id="duration">2:47</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+  
+            <div class="swiper-slide container-film-news">
+             
+              <!-- IMMAGINE DELLA HOME -->
+              <div class="image-home">
+                <img src="https://m.media-amazon.com/images/M/MV5BNjk3NjEwODAtZmIyYy00YzA2LWFjODktMTI2MmRkZGVmMTVjXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg" alt="foto-hero" id="image-presentation">
+                <!-- Ombreggiatura -->
+                <div class="banner-bottom"></div>
+              </div>
+                <div class="info-hero">
+  
+                  <!-- BOTTONE IN ALTO A SINISTRA -->
+                  <div class="add-button add-button-home button-news">
+                    <div class="croce">
+                      <i class="fa-solid fa-plus fa-lg"></i>
+                      </div>
+                  
+                    <div class="ribbon" role="button">
+                      <i class="fa-solid fa-bookmark fa-3x"></i>
+                      </div>
+                    </div>
+                    <!-- LOCANDINA -->
+                  <div class="image-hero" id="image-1">
+                    <div class="image-news">
+                    <img src="https://loscarabocchiatore.it/wp-content/uploads/2022/02/Doctor-Strange-nel-Multiverso-della-Follia-poster.jpg" alt="animali-fantastici" id="image">
+                    </div>
+                    
+                    <div class="text-news">
+                      <i class="fa-regular fa-circle-play"></i>
+    
+                      <div class="text-news-film">
+                      <h1>'Doctor Strange nel Multiverso della Follia'</h1>
+                      <p>Guarda il trailer completo</p>
+                      </div>
+                      <p id="duration">2:06</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="swiper-slide container-film-news">
+               <!-- IMMAGINE DELLA HOME -->
+               <div class="image-home">
+                <img src="http://www.staynerd.com/wp-content/uploads/39480_originale_bg.jpg" alt="foto-hero" id="image-presentation">
+                <!-- Ombreggiatura -->
+                <div class="banner-bottom"></div>
+              </div>
+                <div class="info-hero">
+  
+                  <!-- BOTTONE IN ALTO A SINISTRA -->
+                  <div class="add-button add-button-home button-news">
+                    <div class="croce">
+                      <i class="fa-solid fa-plus fa-lg"></i>
+                      </div>
+                  
+                    <div class="ribbon" role="button">
+                      <i class="fa-solid fa-bookmark fa-3x"></i>
+                      </div>
+                    </div>
+                    <!-- LOCANDINA -->
+                  <div class="image-hero" id="image-1">
+                    <div class="image-news">
+                    <img src="https://pad.mymovies.it/filmclub/2008/10/105/locandina.jpg" alt="animali-fantastici" id="image">
+                    </div>
+                    
+                    <div class="text-news">
+                      <i class="fa-regular fa-circle-play"></i>
+    
+                      <div class="text-news-film">
+                      <h1>'Bastardi Senza Gloria'</h1>
+                      <p>Guarda il trailer completo</p>
+                      </div>
+                      <p id="duration">3:02</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="swiper-slide container-film-news">
+                 <!-- IMMAGINE DELLA HOME -->
+               <div class="image-home">
+                <img src="https://www.comicsuniverse.it/wp-content/uploads/2021/12/Spider-Man-No-Way-Home-Holland.jpg" alt="foto-hero" id="image-presentation">
+                <!-- Ombreggiatura -->
+                <div class="banner-bottom"></div>
+              </div>
+                <div class="info-hero">
+  
+                  <!-- BOTTONE IN ALTO A SINISTRA -->
+                  <div class="add-button add-button-home button-news">
+                    <div class="croce">
+                      <i class="fa-solid fa-plus fa-lg"></i>
+                      </div>
+                  
+                    <div class="ribbon" role="button">
+                      <i class="fa-solid fa-bookmark fa-3x"></i>
+                      </div>
+                    </div>
+                    <!-- LOCANDINA -->
+                  <div class="image-hero" id="image-1">
+                    <div class="image-news">
+                    <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="animali-fantastici" id="image">
+                    </div>
+                    
+                    <div class="text-news">
+                      <i class="fa-regular fa-circle-play"></i>
+    
+                      <div class="text-news-film">
+                      <h1>'Spiderman: No Way Home'</h1>
+                      <p>Guarda il trailer completo</p>
+                      </div>
+                      <p id="duration">2:40</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide container-film-news">
+                <!-- IMMAGINE DELLA HOME -->
+               <div class="image-home">
+                <img src="https://i0.wp.com/www.dasscinemag.com/dass2021/wp-content/uploads/2021/06/Old-Boy-di-Park-Chan-wook-tornera-al-cinema-in-una-versione-restaurata.jpg?ssl=1" alt="foto-hero" id="image-presentation">
+                <!-- Ombreggiatura -->
+                <div class="banner-bottom"></div>
+              </div>
+                <div class="info-hero">
+  
+                  <!-- BOTTONE IN ALTO A SINISTRA -->
+                  <div class="add-button add-button-home button-news">
+                    <div class="croce">
+                      <i class="fa-solid fa-plus fa-lg"></i>
+                      </div>
+                  
+                    <div class="ribbon" role="button">
+                      <i class="fa-solid fa-bookmark fa-3x"></i>
+                      </div>
+                    </div>
+                    <!-- LOCANDINA -->
+                  <div class="image-hero" id="image-1">
+                    <div class="image-news">
+                    <img src="https://pad.mymovies.it/filmclub/2004/52/05/locandina.jpg" alt="animali-fantastici" id="image">
+                    </div>
+                    
+                    <div class="text-news">
+                      <i class="fa-regular fa-circle-play"></i>
+    
+                      <div class="text-news-film">
+                      <h1>'Oldboy'</h1>
+                      <p>Guarda il trailer completo</p>
+                      <p id="duration">1:50</p>
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+          
+    </div>  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"><i class="fa-solid fa-angle-left fa-3x"></i></div>
+    <div class="swiper-button-next"><i class="fa-solid fa-angle-right fa-3x"></i></div>  
+  </div>
+  </div>
+
+      <div class="hero-right">
+        <p class="title" id="next">Successivo</p>
+        <div class="next-news">
+          <div class="next-news-p">
+            <img src="https://fumettologica.it/wp-content/uploads/2022/04/thor-love-thunder-poster.jpeg" alt="">
+            <div class="information-news">
+            <div class="news-play-time">
+            <i class="fa-regular fa-circle-play"></i>
+            <p class="duration-trailer-news">1:27</p>
+            </div>
+            <div class="news-title-trailer">
+            <p class="film-title-news">"Thor: Love and Thunder"</p>
+            <p class="watch-trailer-news">Guarda il trailer</p>
+            </div>
+          </div>
+          </div>
+          <div class="next-news-p">
+            <img src="https://pad.mymovies.it/filmclub/2017/04/249/locandina.jpg" alt="">
+            <div class="information-news">
+            <div class="news-play-time">
+            <i class="fa-regular fa-circle-play"></i>
+            <p class="duration-trailer-news">1:50</p>
+            </div>
+            <div class="news-title-trailer">
+            <p class="film-title-news">"Il Re Leone"</p>
+            <p class="watch-trailer-news">Guarda il trailer</p>
+            </div>
+          </div>
+          </div>
+          <div class="next-news-p">
+            <img src="https://www.taxidrivers.it/wp-content/uploads/2021/11/FBbPnd2WQAMqa5h.jpeg" alt="">
+            <div class="information-news">
+            <div class="news-play-time">
+            <i class="fa-regular fa-circle-play"></i>
+            <p class="duration-trailer-news">2:20</p>
+            </div>
+            <div class="news-title-trailer">
+            <p class="film-title-news">"Eternals"</p>
+            <p class="watch-trailer-news">Guarda il trailer</p>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <p id="explore-trailer"><a href="">Esplora trailer  ></a></p>
+      </div>
+            
+</div>
+
+<!------- IN EVIDENZA OGGI ------->
+<div class="container-evidence-today">
+  <h1 class="title">In evidenza oggi</h1>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <div class="container-news-today first-news">
+      <div class="image-evidence">
+      <img src="https://orgoglionerd.it/wp-content/uploads/2022/01/nicolas-cage-non-ama-essere-definito-attore.webp" alt="nicolas-cage">
+      <i class="fa-regular fa-images"><span class="text-evidence">Foto</span></i>
+      </div>
+      <a href=""><p>Nicolas Cage rischia il carcere</p></a>
+      <div class="banner-bottom"></div>
+      </div>
+
+      <div class="container-news-today second-news">
+        <div class="image-evidence">
+        <img src="https://it.unbilgi.com/wp-content/uploads/2020/10/Ryan-Reynolds-770x433.jpg" alt="ryan reynolds">
+        <i class="fa-regular fa-images second-news"><span class="text-evidence">Foto</span></i>
+        </div>
+        <a href=""><p>Ryan Reynolds pronto per Deadpool 3</p></a>
+        <div class="banner-bottom"></div>
+        </div>
+    </div>
+
+    
+    <div class="swiper-slide">
+      <div class="container-news-today first-news">
+      <div class="image-evidence">
+      <img src="https://i0.wp.com/www.comicsuniverse.it/wp-content/uploads/2021/12/2022-superhero-movies.jpg?fit=1280%2C720&ssl=1" alt="superhero 2022">
+      <i class="fa-regular fa-images"><span class="text-evidence">Foto</span></i>
+      </div>
+      <a href=""><p>Tutti i nuovi cinecomics in uscita 2022</p></a>
+      <div class="banner-bottom"></div>
+      </div>
+
+      <div class="container-news-today second-news">
+        <div class="image-evidence">
+        <img src="https://www.repstatic.it/video/photo/2022/04/13/827619/827619-thumb-full-720-r_220413_depp_sottotitoli.jpg" alt="processo">
+        <i class="fa-regular fa-images second-news"><span class="text-evidence">Foto</span></i>
+        </div>
+        <a href=""><p>Processo a Johnny Depp</p></a>
+        <div class="banner-bottom"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-button-prev"><i class="fa-solid fa-angle-left fa-3x"></i></div>
+    <div class="swiper-button-next"><i class="fa-solid fa-angle-right fa-3x"></i></div>  
+  </div>
+</div>
+
+
+
+
+<!------- CONTAINER COSA GUARDARE ------->
+<div class="watching">
+  <div class="title-watching">
+  <h1 class="title">Cosa guardare</h1>
+  <p id="suggestions">Ottieni altri suggerimenti ></p>
+  </div>
+
+  <div class="most-watched">
+    <div class="line"></div>
+    <p>I più visti</p>
+    <!-- icona -->
+    <p>Serie TV e Film adatti a te</p>
+  </div>
+<div class="swiper">
+  <div class="swiper-wrapper">
+
+    <!------- SWIPER SECTION FILM ------->
+
+    <div class="swiper-slide container-film"> 
+      <!-- SLIDE FILM -->
+      <div class="image">
+        
+        <!-- PULSANTE ADD -->
+        <div class="add-button">
+          <div class="croce">
+            <i class="fa-solid fa-plus fa-lg"></i>
+            </div>
+        
+          <div class="ribbon" role="button">
+            <i class="fa-solid fa-bookmark fa-3x"></i>
+            </div>
+        </div>
+
+        <!-- LOCANDINA FILM  -->
+        <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+  
+        <!-- VOTO DEL FILM -->
+        <div class="votes">
+        <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+        <p id="vote-right"><i class="fa-regular fa-star prefer" ></i></p>
+        </div>
+  
+        <!-- TITOLO DEL FILM -->
+        <p class="title-film">Spider-Man: No Way Home</p>
+        
+        <!-- WATCHLIST -->
+        <div class="watchlist">
+        <button>Opzioni di visualiz...</button>
+        </div>
+  
+        <!-- TRAILER -->
+        <div class="trailer">
+        <button><i class="fa-solid fa-play"></i> Trailer</button>
+        </div>
+    </div>
+
+     <!-- FILM -->
+     <div class="image">
+     
+      <!-- PULSANTE ADD -->
+      <div class="add-button">
+        <div class="croce">
+          <i class="fa-solid fa-plus fa-lg"></i>
+          </div>
+      
+        <div class="ribbon" role="button">
+          <i class="fa-solid fa-bookmark fa-3x"></i>
+          </div>
+        </div>
+
+
+
+      <!-- LOCANDINA FILM  -->
+      <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+
+      <!-- VOTO DEL FILM -->
+      <div class="votes">
+      <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+      <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+      </div>
+
+      <!-- TITOLO DEL FILM -->
+      <p class="title-film">Spider-Man: No Way Home</p>
+      
+      <!-- WATCHLIST -->
+      <div class="watchlist">
+      <button>Opzioni di visualiz...</button>
+      </div>
+
+      <!-- TRAILER -->
+      <div class="trailer">
+      <button><i class="fa-solid fa-play"></i> Trailer</button>
+      </div>
+    </div>
+     <!-- FILM -->
+     <div class="image" id="image-1">
+      <!-- PULSANTE ADD -->
+      <div class="add-button">
+        <div class="croce">
+          <i class="fa-solid fa-plus fa-lg"></i>
+          </div>
+      
+        <div class="ribbon" role="button">
+          <i class="fa-solid fa-bookmark fa-3x"></i>
+          </div>
+        </div>
+
+      <!-- LOCANDINA FILM  -->
+      <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+
+      <!-- VOTO DEL FILM -->
+      <div class="votes">
+      <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+      <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+      </div>
+
+      <!-- TITOLO DEL FILM -->
+      <p class="title-film">Spider-Man: No Way Home</p>
+      
+      <!-- WATCHLIST -->
+      <div class="watchlist">
+      <button>Opzioni di visualiz...</button>
+      </div>
+
+      <!-- TRAILER -->
+      <div class="trailer">
+      <button><i class="fa-solid fa-play"></i> Trailer</button>
+      </div>
+  </div>
+   <!-- FILM -->
+   <div class="image" id="image-1">
+    <!-- PULSANTE ADD -->
+    <div class="add-button">
+      <div class="croce">
+        <i class="fa-solid fa-plus fa-lg"></i>
+        </div>
+    
+      <div class="ribbon" role="button">
+        <i class="fa-solid fa-bookmark fa-3x"></i>
+        </div>
+      </div>
+
+    <!-- LOCANDINA FILM  -->
+    <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+
+    <!-- VOTO DEL FILM -->
+    <div class="votes">
+    <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+    <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+    </div>
+
+    <!-- TITOLO DEL FILM -->
+    <p class="title-film">Spider-Man: No Way Home</p>
+    
+    <!-- WATCHLIST -->
+    <div class="watchlist">
+    <button>Opzioni di visualiz...</button>
+    </div>
+
+    <!-- TRAILER -->
+    <div class="trailer">
+    <button><i class="fa-solid fa-play"></i> Trailer</button>
+    </div>
+</div>
+
+ <!-- FILM -->
+ <div class="image" id="image-1">
+  <!-- PULSANTE ADD -->
+  <div class="add-button">
+    <div class="croce">
+      <i class="fa-solid fa-plus fa-lg"></i>
+      </div>
+  
+    <div class="ribbon" role="button">
+      <i class="fa-solid fa-bookmark fa-3x"></i>
+      </div>
+    </div>
+
+  <!-- LOCANDINA FILM  -->
+  <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+
+  <!-- VOTO DEL FILM -->
+  <div class="votes">
+  <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+  <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+  </div>
+
+  <!-- TITOLO DEL FILM -->
+  <p class="title-film">Spider-Man: No Way Home</p>
+  
+  <!-- WATCHLIST -->
+  <div class="watchlist">
+  <button>Opzioni di visualiz...</button>
+  </div>
+
+  <!-- TRAILER -->
+  <div class="trailer">
+  <button><i class="fa-solid fa-play"></i> Trailer</button>
+  </div>
+</div>
+
+ <!-- FILM -->
+ <div class="image" id="image-1">
+  <!-- PULSANTE ADD -->
+  <div class="add-button">
+    <div class="croce">
+      <i class="fa-solid fa-plus fa-lg"></i>
+      </div>
+  
+    <div class="ribbon" role="button">
+      <i class="fa-solid fa-bookmark fa-3x"></i>
+      </div>
+    </div>
+
+  <!-- LOCANDINA FILM  -->
+  <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+
+  <!-- VOTO DEL FILM -->
+  <div class="votes">
+  <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+  <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+  </div>
+
+  <!-- TITOLO DEL FILM -->
+  <p class="title-film">Spider-Man: No Way Home</p>
+  
+  <!-- WATCHLIST -->
+  <div class="watchlist">
+  <button>Opzioni di visualiz...</button>
+  </div>
+
+  <!-- TRAILER -->
+  <div class="trailer">
+  <button><i class="fa-solid fa-play"></i> Trailer</button>
+  </div>
+</div>
+    </div>
+
+   <div class="swiper-slide container-film">
+      <!-- FILM -->
+      <div class="image" id="image-1">
+        <!-- PULSANTE ADD -->
+        <div class="add-button">
+          <div class="croce">
+            <i class="fa-solid fa-plus fa-lg"></i>
+            </div>
+        
+          <div class="ribbon" role="button">
+            <i class="fa-solid fa-bookmark fa-3x"></i>
+            </div>
+          </div>
+
+        <!-- LOCANDINA FILM  -->
+        <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+  
+        <!-- VOTO DEL FILM -->
+        <div class="votes">
+        <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+        <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+        </div>
+  
+        <!-- TITOLO DEL FILM -->
+        <p class="title-film">Spider-Man: No Way Home</p>
+        
+        <!-- WATCHLIST -->
+        <div class="watchlist">
+        <button>Opzioni di visualiz...</button>
+        </div>
+  
+        <!-- TRAILER -->
+        <div class="trailer">
+        <button><i class="fa-solid fa-play"></i> Trailer</button>
+        </div>
+    </div>
+
+     <!-- FILM -->
+      <div class="image" id="image-1">
+        <!-- PULSANTE ADD -->
+        <div class="add-button">
+          <div class="croce">
+            <i class="fa-solid fa-plus fa-lg"></i>
+            </div>
+        
+          <div class="ribbon" role="button">
+            <i class="fa-solid fa-bookmark fa-3x"></i>
+            </div>
+          </div>
+
+        <!-- LOCANDINA FILM  -->
+        <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+  
+        <!-- VOTO DEL FILM -->
+        <div class="votes">
+        <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+        <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+        </div>
+  
+        <!-- TITOLO DEL FILM -->
+        <p class="title-film">Spider-Man: No Way Home</p>
+        
+        <!-- WATCHLIST -->
+        <div class="watchlist">
+        <button>Opzioni di visualiz...</button>
+        </div>
+  
+        <!-- TRAILER -->
+        <div class="trailer">
+        <button><i class="fa-solid fa-play"></i> Trailer</button>
+        </div>
+    </div>
+
+     <!-- FILM -->
+     <div class="image" id="image-1">
+      <!-- PULSANTE ADD -->
+      <div class="add-button">
+        <div class="croce">
+          <i class="fa-solid fa-plus fa-lg"></i>
+          </div>
+      
+        <div class="ribbon" role="button">
+          <i class="fa-solid fa-bookmark fa-3x"></i>
+          </div>
+        </div>
+
+      <!-- LOCANDINA FILM  -->
+      <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+
+      <!-- VOTO DEL FILM -->
+      <div class="votes">
+      <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+      <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+      </div>
+
+      <!-- TITOLO DEL FILM -->
+      <p class="title-film">Spider-Man: No Way Home</p>
+      
+      <!-- WATCHLIST -->
+      <div class="watchlist">
+      <button>Opzioni di visualiz...</button>
+      </div>
+
+      <!-- TRAILER -->
+      <div class="trailer">
+      <button><i class="fa-solid fa-play"></i> Trailer</button>
+      </div>
+  </div>
+
+     <!-- FILM -->
+     <div class="image" id="image-1">
+      <!-- PULSANTE ADD -->
+      <div class="add-button">
+        <div class="croce">
+          <i class="fa-solid fa-plus fa-lg"></i>
+          </div>
+      
+        <div class="ribbon" role="button">
+          <i class="fa-solid fa-bookmark fa-3x"></i>
+          </div>
+        </div>
+
+      <!-- LOCANDINA FILM  -->
+      <img src="https://image.tmdb.org/t/p/original/1z7ZQhga4AcSkQNqEU3Tf9XpxoX.jpg" alt="spiderman-no-way-home" id="image">
+
+      <!-- VOTO DEL FILM -->
+      <div class="votes">
+      <p id="vote-left"><i class="fa-solid fa-star" id="vote"></i> 8.5</p>
+      <p id="vote-right"><i class="fa-regular fa-star prefer"></i></p>
+      </div>
+
+      <!-- TITOLO DEL FILM -->
+      <p class="title-film">Spider-Man: No Way Home</p>
+      
+      <!-- WATCHLIST -->
+      <div class="watchlist">
+      <button>Opzioni di visualiz...</button>
+      </div>
+
+      <!-- TRAILER -->
+      <div class="trailer">
+      <button><i class="fa-solid fa-play"></i> Trailer</button>
+      </div>
+  </div>
+    </div>
+
+  </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"><i class="fa-solid fa-angle-left fa-3x"></i></div>
+        <div class="swiper-button-next"><i class="fa-solid fa-angle-right fa-3x"></i></div>
+</div>
+
+</div>
+</div>
+</body>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="script/app.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
+
+</script>
+</html>
